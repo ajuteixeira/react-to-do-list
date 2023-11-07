@@ -8,12 +8,8 @@ export default function Task({ task }) {
         <p className="">#{task.category}</p>
       </div>
       <div className="flex justify-center items-center gap-2">
-        <Button
-          type="default"
-          color="purple"
-          title={<a href="#">Complete</a>}
-        />
-        <Button type="default" color="gray" title={<a href="#">X</a>} />
+        <Button format="default" color="purple" title={"Complete"} />
+        <Button format="default" color="gray" title={"X"} />
       </div>
     </div>
   );
