@@ -27,7 +27,7 @@ export default function List() {
     <>
       <div className="flex flex-col gap-6">
         {todos.map((todo) => (
-          <div className="flex justify-between gap-10 text-left">
+          <div className="flex justify-between items-start gap-5 sm:gap-10">
             <div className="">
               <p>{todo.text}</p>
               <p className="">#{todo.category}</p>

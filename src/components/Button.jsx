@@ -12,7 +12,7 @@ export default function Button(props) {
     }
     ${
       props.type === "default" &&
-      "px-4 py-3 w-full text-sm font-bold leading-5  rounded"
+      "px-4 py-3 w-full text-xs sm:text-sm font-bold leading-5 rounded"
     }
     `}
     >

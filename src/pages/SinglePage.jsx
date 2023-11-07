@@ -7,8 +7,10 @@ export default function SinglePage() {
       <header>
         <Title>To-do list 📝</Title>
       </header>
-      <main className="max-w-2xl p-12 mt-7 flex flex-col justify-center items-center gap-10 text-center text-[#908e97] bg-[#f1f1f1] rounded-2xl">
-        <List />
+      <main>
+        <section className="max-w-2xl p-12 mt-7 mx-4 flex flex-col justify-center items-center gap-10 text-xs sm:text-sm text-[#908e97] bg-[#f1f1f1] rounded-2xl">
+          <List />
+        </section>
       </main>
     </>
   );
