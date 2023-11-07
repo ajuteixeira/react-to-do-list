@@ -7,7 +7,7 @@ export default function Button(props) {
       "text-[#f5f5f5] bg-[#7e459b] hover:bg-[#713d8b]"
     }
     ${
-      props.color === "gray" &&
+      props.color === "lilac" &&
       "text-[#f5f5f5] bg-[#b5b6f2] hover:bg-[#b0b1ec] hover:text-[#f5f5f5]"
     }
     ${
