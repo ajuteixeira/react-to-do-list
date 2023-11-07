@@ -6,19 +6,19 @@ export default function List() {
     {
       id: 1,
       text: "Create functionality in the system",
-      category: "work",
+      category: "Work",
       isCompleted: false,
     },
     {
       id: 2,
       text: "Go to the gym",
-      category: "personal",
+      category: "Personal",
       isCompleted: false,
     },
     {
       id: 3,
       text: "Study React",
-      category: "studies",
+      category: "Studies",
       isCompleted: false,
     },
   ]);

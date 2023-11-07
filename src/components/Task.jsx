@@ -9,7 +9,7 @@ export default function Task({ task }) {
       </div>
       <div className="flex justify-center items-center gap-2">
         <Button format="default" color="purple" title={"Complete"} />
-        <Button format="default" color="gray" title={"X"} />
+        <Button format="default" color="lilac" title={"X"} />
       </div>
     </div>
   );
