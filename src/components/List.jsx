@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Button from "./Button";
+import Task from "./Task";
 
 export default function List() {
-  const [todos, setTodos] = useState([
+  const [tasks, setTasks] = useState([
     {
       id: 1,
       text: "Create functionality in the system",
@@ -26,21 +26,9 @@ export default function List() {
   return (
     <>
       <div className="flex flex-col gap-6">
-        {todos.map((todo) => (
-          <div className="flex justify-between items-start gap-5 sm:gap-10">
-            <div className="">
-              <p>{todo.text}</p>
-              <p className="">#{todo.category}</p>
-            </div>
-            <div className="flex justify-center items-center gap-2">
-              <Button
-                type="default"
-                color="purple"
-                title={<a href="#">Complete</a>}
-              />
-              <Button type="default" color="gray" title={<a href="#">X</a>} />
-            </div>
-          </div>
+        {tasks.map((task) => (
+          // a prop task vai ter o valor do objeto task
+          <Task task={task} />
         ))}
       </div>
     </>
