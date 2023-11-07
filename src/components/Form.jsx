@@ -7,7 +7,7 @@ export default function Form() {
   return (
     <>
       <form>
-        <Input type="text" placeholder="Enter the title" />
+        <Input type="text" placeholder="Task title" />
         <Select>
           <Option value="">Select a category</Option>
           <Option value="Work" />
